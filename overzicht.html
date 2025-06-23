@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explore</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@2.3.0/dist/material-components-web.min.css" />
+  <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+
+  <div class="container">
+    <label class="mdc-text-field mdc-text-field--filled" id="searchInput">
+      <span class="mdc-text-field__ripple"></span>
+      <span class="material-icons mdc-text-field__icon" aria-hidden="true">search</span>
+      <input class="mdc-text-field__input" type="text" aria-label="Zoek op filmtitel">
+      <span class="mdc-floating-label">Zoek op filmtitel</span>
+      <span class="mdc-line-ripple"></span>
+    </label>
+    <div id="film-list"></div>
+  </div>
+
+  <script src="https://unpkg.com/material-components-web@2.3.0/dist/material-components-web.min.js"></script>
+  <script src="js/navigation-loader.js"></script>
+  <script src="js/sw-register.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/search.js"></script>
+</body>
+
+</html>

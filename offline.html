@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Offline</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding-bottom: 64px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #121212;
+      color: #E0E0E0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      color: #D1C4E9;
+      font-weight: 700;
+      margin-top: 1rem;
+      font-size: 2.5rem;
+    }
+
+    p {
+      color: #bbb;
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      max-width: 320px;
+    }
+
+    #lost-signal {
+      width: 200px;
+      height: 200px;
+      fill: #7E57C2;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="lost-signal">
+    <path fill="#CFD8DC"
+      d="M2.25 24h-.5C.785 24 0 23.215 0 22.25v-5.5C0 15.785.785 15 1.75 15h.5c.965 0 1.75.785 1.75 1.75v5.5C4 23.215 3.215 24 2.25 24z">
+    </path>
+    <path fill="#B0BEC5"
+      d="M8.25 24h-.5C6.785 24 6 23.215 6 22.25v-9.5c0-.965.785-1.75 1.75-1.75h.5c.965 0 1.75.785 1.75 1.75v9.5c0 .965-.785 1.75-1.75 1.75z">
+    </path>
+    <path fill="#90A4AE"
+      d="M14.25 5h-.5C12.79 5 12 5.79 12 6.75v4.96a8.028 8.028 0 0 1 4-2.07V6.75C16 5.79 15.21 5 14.25 5z"></path>
+    <path fill="#78909C" d="M20.25 0h-.5C18.79 0 18 .79 18 1.75v7.77a7.9 7.9 0 0 1 4 1.38V1.75C22 .79 21.21 0 20.25 0z">
+    </path>
+    <circle cx="17.5" cy="17.5" r="6.5" fill="#F44336"></circle>
+    <path fill="#FFF"
+      d="M20.207 18.793a.999.999 0 1 1-1.414 1.414L17.5 18.914l-1.293 1.293a.999.999 0 1 1-1.414-1.414l1.293-1.293-1.293-1.293a.999.999 0 1 1 1.414-1.414l1.293 1.293 1.293-1.293a.999.999 0 1 1 1.414 1.414L18.914 17.5l1.293 1.293z">
+    </path>
+  </svg>
+
+  <h1>Je bent offline</h1>
+  <p>Controleer je internetverbinding en probeer opnieuw.</p>
+</body>
+
+</html>

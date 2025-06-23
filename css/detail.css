@@ -1,0 +1,129 @@
+body {
+  background-color: #121212;
+  color: #eee;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.detail-container {
+  max-width: 900px;
+  margin: 40px auto 60px;
+  padding: 0 24px 48px;
+}
+
+#backBtn {
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: none;
+  box-shadow: 0 0 0 #000;
+  transition: background-color 0.2s ease;
+}
+
+#backBtn:hover {
+  background-color: #1e1e1e;
+}
+
+#backBtn:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.detail-poster {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: transform 0.3s ease;
+}
+
+.detail-banner:hover {
+  transform: scale(1.03);
+}
+
+.detail-content {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 30px 32px 36px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail-content h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.detail-content .detail-subinfo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1rem;
+  color: #ccc;
+  font-weight: 500;
+}
+
+.detail-content p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.detail-overview {
+  font-style: italic;
+  color: #bbb;
+  font-size: 1.15rem;
+  padding-top: 8px;
+  border-top: 1px solid #333;
+  margin-top: 12px;
+}
+
+#favorite-btn {
+  background: none;
+  border: none;
+  color: #B0B0B0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #2a2a2a;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#favorite-btn .material-icons {
+  font-size: 24px;
+}
+
+#favorite-btn:hover {
+  color: #D1C4E9;
+  background-color: #2c2c2c;
+}
+
+#favorite-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#favorite-btn:active {
+  color: #7E57C2;
+}
