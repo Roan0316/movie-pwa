@@ -40,6 +40,3 @@ Voor deze opdracht moesten we een zelfgekozen onderwerp uitwerken in een install
 - ⭐ Voeg films toe aan je favorietenlijst
 - 📱 PWA-ondersteuning: installeerbare app en offline beschikbaarheid
 - 🎨 Material Design UI (via MDC)
-
-## 📁 Projectstructuur
-
