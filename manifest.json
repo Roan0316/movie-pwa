@@ -1,7 +1,7 @@
 {
   "name": "Film App",
   "short_name": "Films",
-  "start_url": "/start.html",
+  "start_url": "/movie-pwa/start.html",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#6200ee",
